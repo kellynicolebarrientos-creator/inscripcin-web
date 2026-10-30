@@ -20,7 +20,7 @@
       padding: 20px;
 
       /* IMAGEN DE FONDO PRINCIPAL */
-      background-image: url("fondo.jpg"); /* Ruta corregida */
+      background-image: url("imagenes/fondo.jpg"); /* Cambia por tu fondo */
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -33,8 +33,9 @@
       width: 100%;
       margin: auto;
       padding: 35px;
+      /* Ajusta el último número (0.70) si lo quieres más transparente (ej. 0.50) o menos (ej. 0.85) */
       background: rgba(255, 250, 255, 0.70); 
-      backdrop-filter: blur(8px);
+      backdrop-filter: blur(8px); /* Difumina el fondo detrás de la tarjeta */
       -webkit-backdrop-filter: blur(8px);
       border-radius: 25px;
       box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
@@ -76,7 +77,7 @@
     }
 
     .actividad-card {
-      background: rgba(248, 239, 252, 0.85);
+      background: rgba(248, 239, 252, 0.85); /* Tarjetas pequeñas ligeramente transparentes */
       border: 2px solid #e5cbe9;
       border-radius: 18px;
       padding: 12px 8px;
@@ -218,7 +219,7 @@
           <label>
             <input type="radio" name="actividad" value="futbol" class="card-radio" required>
             <div class="actividad-card">
-              <img src="futbol.jpg" alt="Fútbol">
+              <img src="imagenes/futbol.jpg" alt="Fútbol">
               <span>Fútbol</span>
               <div class="btn-seleccionar">Elegir</div>
             </div>
@@ -228,7 +229,7 @@
           <label>
             <input type="radio" name="actividad" value="banda" class="card-radio">
             <div class="actividad-card">
-              <img src="tambores.jpg" alt="Banda de Guerra">
+              <img src="imagenes/tambores.jpg" alt="Banda de Guerra">
               <span>Banda de Guerra</span>
               <div class="btn-seleccionar">Elegir</div>
             </div>
@@ -238,7 +239,7 @@
           <label>
             <input type="radio" name="actividad" value="ajedrez" class="card-radio">
             <div class="actividad-card">
-              <img src="ajedrez.jpg" alt="Ajedrez">
+              <img src="imagenes/ajedrez.jpg" alt="Ajedrez">
               <span>Ajedrez</span>
               <div class="btn-seleccionar">Elegir</div>
             </div>
